@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    font-family: "Montserrat",sans-serif;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+    text-align: center;
+    background-color: #334e5c;
+    color:white;
+    border-radius: 1rem;
+}
+
+h1{
+    font-weight: bold;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #5f9341;
+    margin-bottom: 4px;
+    border-radius: 1rem;
+    font-family: "Montserrat",sans-serif;
+}
+
+.container{
+    width:100%;
+    background-color: grey;
+    border-radius: 1rem;
+    display: flex;
+    text-align: left;
+}
+.wrapper{
+    margin:1rem;
+}
+button {
+    background: #ee3a59;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid #ee3a59;
+    font-weight: bold;
+    border-radius: 1rem;
+    margin: 1rem auto;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color: #ee3a59;
+}
+
+#delete-btn, #deleteAll-btn {
+    background: white;
+    color: #ee3a59;
+}
+#delete-btn:hover, #deleteAll-btn:hover{
+    background-color: #ee3a59;
+    color:white
+}
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 5px;
+}
+
+a {
+    color: black;
+}
+
+
